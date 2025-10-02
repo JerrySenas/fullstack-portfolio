@@ -133,8 +133,7 @@ onMounted(() => {
                 <i class="fa fa-2x fa-gitlab"></i>
                 <i class="fa fa-2x fa-github"></i>
               </span>
-              <button type="submit" class="btn btn-primary ms-auto" id="form-submit" data-bs-toggle="modal"
-                data-bs-target="#message-sent-modal">Submit</button>
+              <button type="submit" class="btn btn-primary ms-auto">Submit</button>
             </div>
 
             <!-- reCaptcha Checkbox -->
@@ -146,23 +145,4 @@ onMounted(() => {
       </div>
     </div>
   </section>
-  
-  <!-- Contact Modal -->
-  <div class="modal fade" id="message-sent-modal" tabindex="-1">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title">Message Sent</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <p>Your message has been sent.</p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Contact Modal End -->
 </template>
